@@ -1,0 +1,97 @@
+.navbar-container{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-container > ul {
+    list-style: none; 
+}
+.navbar-items > a {
+    text-decoration: none; 
+    color: white; 
+}
+.navbar-items {
+    display: inline; 
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+.login-button {
+    background-color: white; 
+    color: blueviolet;
+    padding: 5px 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+
+.main-container {
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid blueviolet;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+label {
+    width: 70px;
+}
+
+.input-item {
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+}
+
+.submit-button {
+    background-color: blueviolet; 
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+#user-icon{
+    width: 150px;
+}
+
+.social-logos{
+    width: 40px;
+    padding-left: 20px;
+
+}
+
+.footer-container{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-network{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+#copyright{
+    font-weight: bolder;
+    color: white;
+}
